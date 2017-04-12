@@ -1,0 +1,29 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.hotwaxsystems.productplus.MainActivity"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/relativeLayout"
+        android:weightSum="2"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:text="Menu"
+            android:layout_gravity="center"
+            android:textSize="30sp"
+            android:id="@+id/textView2"/>
+
+        <ImageView
+            android:layout_weight="1.8"
+            android:src="@mipmap/ic_launcher"
+            android:layout_width="match_parent"
+            android:layout_height="0dp" />
+
+
+
+
+    </LinearLayout>
+

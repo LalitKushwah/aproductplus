@@ -1,0 +1,6 @@
+.idea
+.gradle
+app/app.iml
+aproductplus.iml
+build
+local.properties
