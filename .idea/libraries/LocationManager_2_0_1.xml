@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="LocationManager-2.0.1">
+    <ANNOTATIONS>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.yayandroid/LocationManager/2.0.1/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.yayandroid/LocationManager/2.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.yayandroid/LocationManager/2.0.1/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$APPLICATION_HOME_DIR$/gradle/m2repository/com/android/tools/build/gradle/3.0/gradle-3.0/caches/modules-2/files-2.1/com.yayandroid/LocationManager/2.0.1/4cb14a8d8ee68d99163b5ae5603d0ed880381ba2/LocationManager-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

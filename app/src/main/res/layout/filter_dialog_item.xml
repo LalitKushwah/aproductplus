@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="8dp"
+        app:cardCornerRadius="2dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:background="#3F51B5"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filter"
+            android:textColor="#ffff"
+            android:textSize="20sp"
+            android:id="@+id/title"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="20dp">
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:paddingLeft="70dp"
+            android:paddingRight="20dp"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:text="Ratings     "
+            android:id="@+id/rating" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:paddingLeft="70dp"
+            android:paddingRight="20dp"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:text="Distance   "
+            android:id="@+id/distance" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layoutDirection="rtl"
+            android:paddingLeft="70dp"
+            android:textAlignment="textStart"
+            android:paddingRight="20dp"
+            android:layout_gravity="start"
+            android:text="Cost          "
+            android:id="@+id/cost" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="Apply"
+        android:textColor="#FFF"
+    android:layout_marginTop="10dp"
+        android:id="@+id/applyFilterBtn"
+        android:background="@drawable/blue_button"
+        android:layout_height="wrap_content" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

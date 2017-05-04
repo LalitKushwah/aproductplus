@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Open Table </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigate">Navigate</string>
+    <string-array name="drawer_entries">
+        <item>Home</item>
+        <item>About Us</item>
+        <item>Contact</item>
+        <item>Sign Out</item>
+    </string-array>
+</resources>
